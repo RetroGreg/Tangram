@@ -1,96 +1,84 @@
 :root {
-    --padding_top:5px;
-    --padding_bottom:5px;
-    --padding_left:5px;
-    --padding_right:5px;
+    --padding_top: 5px;
+    --padding_bottom: 5px;
+    --padding_left: 5px;
+    --padding_right: 5px;
 }
 
-.triangleYellow{
-    transform: rotate(135deg);
-}
-.triangleBlue{
-    transform: rotate(90deg);
-}
-.triangleOrange{
-    transform: rotate(90deg);    
-}
+.container.coeur {
+    .trapezePurple {
+        transform: rotate(90deg);
+        transform: scaleY(-1);
+        width: 100px;
+        height: 60px;
+        background-color: purple;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        transform: skew(20deg);
+    }
+    .squareRed {
+        position: absolute;
+        top: 630px;
+        left: 410px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: rotate(45deg);
+    }
 
-.container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    border: 2px solid #000;
+    .triangleGreen {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-bottom: 200px solid green;
+        transform: rotate(225deg);
+    }
+
+    .triangleYellow {
+        position: absolute;
+        top: 360;
+        right: 367;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-top: 200px solid yellow;
+        transform: rotate(135deg);
+    }
+
+    .triangleBlue {
+        position: absolute;
+        bottom: 0;
+        left: 200px;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid blue;
+        transform: rotate(135deg);
+    }
+
+    .triangleOrange {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid orange;
+        transform: rotate(225deg);
+    }
+
+    .triangleLime {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-top: 100px solid lightgreen;
+        transform: rotate(-90deg);
+    }
 }
-
-.squareRed {
-    position: absolute;
-    top: 150px;
-    left: 150px;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.triangleGreen {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-bottom: 200px solid green;
-}
-
-.triangleYellow {    
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-top: 200px solid yellow;
-}
-
-.triangleBlue {
-    position: absolute;
-    bottom: 0;
-    left: 200px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid blue;
-}
-
-.triangleOrange {
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid orange;
-}
-
-.trapezePurple {
-    position: absolute;
-    top: 150px;
-    right: 150px;
-    width: 100px;
-    height: 100px;
-    background-color: purple;
-    transform: skewX(-45deg);
-}
-
-.triangleLime {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-top: 100px solid lightgreen;
-}
-
-
-
