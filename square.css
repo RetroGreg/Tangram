@@ -1,10 +1,6 @@
-.container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    border: 2px solid #000;
-}
+.container.carre {
+    background-color: red; /* Fond rouge lorsque la classe 'carre' est active */
+
 
 .squareRed {
     position: absolute;
@@ -80,4 +76,5 @@
     border-left: 150px solid transparent;
     border-top: 150px solid #99c339;
     transform: rotate(-90deg);
+}
 }
