@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   width="105"
+   height="209"
+   sodipodi:docbase="D:\wiki_svg"
+   sodipodi:docname="Tangram_rectangle.png.svg"
+   version="1.0">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="654"
+     inkscape:window-width="756"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="false"
+     borderlayer="top"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-1.7369003"
+     inkscape:cy="141.21852"
+     inkscape:window-x="26"
+     inkscape:window-y="67"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g2252"
+     transform="translate(-14.32603,-20.20003)">
+    <rect
+       y="22.536085"
+       x="16.780556"
+       height="48.326794"
+       width="48.326794"
+       id="rect1308"
+       style="fill:#a998c4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62499976;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="rect2183"
+       d="M 16.780556,122.37654 L 16.780556,74.049658 L 65.10743,74.049658 L 16.780556,122.37654 z "
+       style="fill:#f397ca;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62500018;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path2186"
+       d="M 68.544628,22.536096 L 116.87151,22.536086 L 116.8715,70.862966 L 68.544628,22.536096 z "
+       style="fill:#fbf424;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path2188"
+       d="M 114.24737,226.86394 L 16.780556,226.86397 L 16.780577,129.39715 L 114.24737,226.86394 z "
+       style="fill:#69c2d4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62500036;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1" />
+    <path
+       style="fill:#cbea93;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1"
+       d="M 19.404752,127.53948 L 116.87151,127.53946 L 116.87149,225.00621 L 19.404752,127.53948 z "
+       id="path2190"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#facd2d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1"
+       d="M 19.280248,124.87416 L 66.468535,77.685833 L 113.65684,124.87415 L 19.280248,124.87416 z "
+       id="path2192"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2194"
+       d="M 68.544628,75.154684 L 68.528878,26.505243 L 116.87151,75.154674 L 116.8715,123.48156 L 68.544628,75.154684 z "
+       style="fill:#f13e62;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.5;stroke-opacity:1" />
+  </g>
+</svg>
