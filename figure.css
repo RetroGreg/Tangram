@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url("img/bois.jpeg");
+  background-image: url("img/two-green-leaves-four-white-stones-bamboo-mat.jpg");  
   background-size:cover;
 }
 
@@ -36,18 +36,22 @@ button {
     pointer-events: auto;
     color: #333;
     padding-left: 2px;
-    text-shadow: -1px 0px 0px #000, 1px 1px 0px #fff;
-    display: flex;
-    justify-content: center;
-  
-
+    text-shadow: -1px 0px 0px #000, 1px 1px 0px #fff;    
   }
 
-  button:hover{
+  button.darkmode {
+    background-image:url("img/lantern.svg");
+    position: absolute;
+    top:50px;
+    left: 50px;
+    margin: 100px;    
+}
+
+
+button:hover{
 
     transform: translateX(3px);
   }
-
 
 
 h1 {
@@ -99,11 +103,10 @@ body.darkmode {
 div.container {
   position: relative;
   width: 1200px;
-  height: 800px;
-
-  /* background-color:transparent; */
+  height: 800px;  
   background-image: url("img/plateau.png");
   background-size:cover;
+  background-position: 0px -162px;
 
   display: flex;
   justify-content: center;
