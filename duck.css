@@ -9,7 +9,7 @@
   left: 63.3%;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #ff6666;
   transition: all 1s ease;
 }
 
@@ -20,7 +20,7 @@
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
-  border-bottom: 200px solid green;
+  border-bottom: 200px solid  #33cc66;
   transition: all 1s ease;
 }
 
@@ -32,7 +32,7 @@
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
-  border-top: 200px solid yellow;
+  border-top: 200px solid #ffcc00;
   transition: all 1s ease;
 }
 
@@ -44,7 +44,7 @@
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
-  border-bottom: 100px solid blue;
+  border-bottom: 100px solid #3399ff;
   transition: all 1s ease;
 }
 
@@ -56,7 +56,7 @@
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
-  border-bottom: 100px solid orange;
+  border-bottom: 100px solid #ff9933;
   transition: all 1s ease;
 }
 
@@ -66,7 +66,7 @@
   right: 29.5%;
   width: 8.9%;
   height: 9%;
-  background-color: purple;
+  background-color: #6666cc;
   transform: skew(359deg, 225deg);
   transition: all 1s ease;
 }
@@ -78,7 +78,7 @@
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
-  border-top: 150px solid lightgreen;
+  border-top: 150px solid #99c339;
   transform: rotate(45deg);
   transition: all 1s ease;
 }
