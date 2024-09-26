@@ -46,7 +46,7 @@ h1 {
 h1::before, h1::after {
   content: "";
   position: absolute;
-  top: -30px;
+  top: -48px;
   bottom: -30px;
   left: -50px;
   right: -50px;
