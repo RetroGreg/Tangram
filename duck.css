@@ -1,9 +1,10 @@
 .container.canard{
     
     .squareRed {
+        transform: rotate(45deg);
         position: absolute;
-        top: 150px;
-        left: 150px;
+        top: 41.2%;
+        left: 63.3%;
         width: 100px;
         height: 100px;
         background-color: red;
@@ -11,8 +12,8 @@
     
     .triangleGreen {
         position: absolute;
-        bottom: 0;
-        left: 0;
+        bottom: 17.7%;
+        left: 45%;
         width: 0;
         height: 0;
         border-left: 200px solid transparent;
@@ -20,9 +21,10 @@
     }
     
     .triangleYellow {
+        transform: rotate(135deg);
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 45%;
+        right: 42%;
         width: 0;
         height: 0;
         border-left: 200px solid transparent;
@@ -30,9 +32,10 @@
     }
     
     .triangleBlue {
+        transform: rotate(225deg);
         position: absolute;
-        bottom: 0;
-        left: 200px;
+        bottom: 2.6%;
+        left: 50%;
         width: 0;
         height: 0;
         border-left: 100px solid transparent;
@@ -40,9 +43,10 @@
     }
     
     .triangleOrange {
+        transform: rotate(225deg);
         position: absolute;
-        top: 200px;
-        left: 200px;
+        top: 50%;
+        left: 69.2%;
         width: 0;
         height: 0;
         border-left: 100px solid transparent;
@@ -51,22 +55,25 @@
     
     .trapezePurple {
         position: absolute;
-        top: 150px;
-        right: 150px;
-        width: 100px;
-        height: 100px;
+        top: 53.9%;
+        right: 29.5%;
+        width: 8.9%;
+        height: 9%;
         background-color: purple;
-        transform: skewX(-45deg);
+        transform: skewX(126deg);
+        /* transform: rotate(32deg); */
+        transform: skew(359deg, 225deg);
     }
     
     .triangleLime {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 60%;
+        left: 55.4%;
         width: 0;
         height: 0;
-        border-left: 100px solid transparent;
-        border-top: 100px solid lightgreen;
+        border-left: 150px solid transparent;
+        border-top: 150px solid lightgreen;
+        transform: rotate(45deg);
     }
     
 }

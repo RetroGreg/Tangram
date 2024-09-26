@@ -1,0 +1,92 @@
+.container.mystere1{
+
+
+    .squareRed {
+        transform: rotate(15deg);
+        position: absolute;
+        top: 36.2%;
+        left: 33.3%;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+.squareRed {
+        transform: rotate(15deg);
+        position: absolute;
+        top: 36.2%;
+        left: 33.3%;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+.triangleOrange {
+        transform: rotate(284deg);
+        position: absolute;
+        top: 48%;
+        left: 31.2%;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid orange;
+}
+
+.trapezePurple {
+        position: absolute;
+        top: 53%;
+        right: 64.5%;
+        width: 2.9%;
+        height: 14%;
+        background-color: purple;
+        transform: skewX(126deg);
+        /* transform: rotate(32deg); */
+        transform: skew(32deg, 112deg);
+    }
+
+    .triangleGreen {
+        transform: rotate(105deg);
+        position: absolute;
+        bottom: 34.7%;
+        left: 40%;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-bottom: 200px solid green;
+    }
+
+.triangleYellow {
+        transform: rotate(150deg);
+        position: absolute;
+        top: 38%;
+        right: 34.7%;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-top: 200px solid yellow;
+    }
+
+.triangleBlue {
+        transform: rotate(374deg);
+        position: absolute;
+        bottom: 45.9%;
+        left: 61%;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid blue;
+    }
+
+    .triangleLime {
+        transform: rotate(240deg);
+        position: absolute;
+        bottom: 55.9%;
+        left: 28%;
+        width: 0;
+        height: 0;
+        border-left: 150px solid transparent;
+        border-bottom: 150px solid lime;
+    }
+
+    
+}
