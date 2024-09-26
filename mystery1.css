@@ -1,92 +1,113 @@
-.container.mystere1{
-
-
-    .squareRed {
-        transform: rotate(15deg);
-        position: absolute;
-        top: 36.2%;
-        left: 33.3%;
-        width: 100px;
-        height: 100px;
-        background-color: red;
-    }
-
-.squareRed {
-        transform: rotate(15deg);
-        position: absolute;
-        top: 36.2%;
-        left: 33.3%;
-        width: 100px;
-        height: 100px;
-        background-color: red;
-    }
-
-.triangleOrange {
-        transform: rotate(284deg);
-        position: absolute;
-        top: 48%;
-        left: 31.2%;
-        width: 0;
-        height: 0;
-        border-left: 100px solid transparent;
-        border-bottom: 100px solid orange;
+.container.mystere1 {
+    position: relative;
 }
 
-.trapezePurple {
-        position: absolute;
-        top: 53%;
-        right: 64.5%;
-        width: 2.9%;
-        height: 14%;
-        background-color: purple;
-        transform: skewX(126deg);
-        /* transform: rotate(32deg); */
-        transform: skew(32deg, 112deg);
-    }
+.container.mystere1 .squareRed {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 36.2%;
+    left: 33.3%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s ease;
+}
 
-    .triangleGreen {
-        transform: rotate(105deg);
-        position: absolute;
-        bottom: 34.7%;
-        left: 40%;
-        width: 0;
-        height: 0;
-        border-left: 200px solid transparent;
-        border-bottom: 200px solid green;
-    }
+.container.mystere1 .triangleOrange {
+    transform: rotate(284deg);
+    position: absolute;
+    top: 48%;
+    left: 31.2%;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid orange;
+    transition: all 1s ease;
+}
 
-.triangleYellow {
-        transform: rotate(150deg);
-        position: absolute;
-        top: 38%;
-        right: 34.7%;
-        width: 0;
-        height: 0;
-        border-left: 200px solid transparent;
-        border-top: 200px solid yellow;
-    }
+.container.mystere1 .trapezePurple {
+    position: absolute;
+    top: 53%;
+    right: 64.5%;
+    width: 2.9%;
+    height: 14%;
+    background-color: purple;
+    transform: skew(32deg, 112deg);
+    transition: all 1s ease;
+}
 
-.triangleBlue {
-        transform: rotate(374deg);
-        position: absolute;
-        bottom: 45.9%;
-        left: 61%;
-        width: 0;
-        height: 0;
-        border-left: 100px solid transparent;
-        border-bottom: 100px solid blue;
-    }
+.container.mystere1 .triangleGreen {
+    transform: rotate(105deg);
+    position: absolute;
+    bottom: 34.7%;
+    left: 40%;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid green;
+    transition: all 1s ease;
+}
 
-    .triangleLime {
-        transform: rotate(240deg);
-        position: absolute;
-        bottom: 55.9%;
-        left: 28%;
-        width: 0;
-        height: 0;
-        border-left: 150px solid transparent;
-        border-bottom: 150px solid lime;
-    }
+.container.mystere1 .triangleYellow {
+    transform: rotate(150deg);
+    position: absolute;
+    top: 38%;
+    right: 34.7%;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-top: 200px solid yellow;
+    transition: all 1s ease;
+}
 
-    
+.container.mystere1 .triangleBlue {
+    transform: rotate(374deg);
+    position: absolute;
+    bottom: 45.9%;
+    left: 61%;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    transition: all 1s ease;
+}
+
+.container.mystere1 .triangleLime {
+    transform: rotate(240deg);
+    position: absolute;
+    bottom: 55.9%;
+    left: 28%;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid lime;
+    transition: all 1s ease;
+}
+
+.container.mystere1.active .squareRed {
+    transform: rotate(180deg) scale(1.2);
+}
+
+.container.mystere1.active .triangleGreen {
+    transform: rotate(270deg) scale(1.2);
+}
+
+.container.mystere1.active .triangleYellow {
+    transform: rotate(180deg) scale(1.2);
+}
+
+.container.mystere1.active .triangleBlue {
+    transform: rotate(-135deg) scale(1.2);
+}
+
+.container.mystere1.active .triangleOrange {
+    transform: rotate(225deg) scale(1.2);
+}
+
+.container.mystere1.active .trapezePurple {
+    transform: skewX(-45deg) rotate(45deg);
+}
+
+.container.mystere1.active .triangleLime {
+    transform: rotate(225deg) scale(1.2);
 }

@@ -1,51 +1,45 @@
-body{    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-header{
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-nav{
-padding: 5%;
-flex-wrap: wrap;
-gap: 10px;
-display: flex;
-justify-content: center;
+nav {
+  padding: 5%;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-button{
-
-    padding: 10px;
+button {
+  padding: 10px;
 }
 
-h1{
-
-    text-align: center;
-    padding: 20px;
-    font-size: 100px;
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 100px;
 }
 
 div.container {
-    position: relative;
-    
-    width: 1200px;
-    height: 800px;
-    background-color: beige;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main{
-
-    display: flex;
-    justify-content: center;
+main {
+  display: flex;
+  justify-content: center;
 }
