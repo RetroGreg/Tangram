@@ -34,7 +34,7 @@ h1{
 /* Styles de base pour le conteneur */
 div.container {
     position: relative;
-    width: 1200px;
+    width: 100vw;
     height: auto;
     min-height: 800px;
     background-color: beige;
