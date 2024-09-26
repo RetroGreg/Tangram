@@ -13,7 +13,7 @@
   transform: rotate(90deg) scaleY(-1);
   width: 140px;
   height: 70px;
-  background-color: purple;
+  background-color: #6666cc;
   position: absolute;
   top: 49.5%;
   left: 27.4%;
@@ -27,7 +27,7 @@
   left: 33.5%;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #ff6666;
   transform: rotate(0deg);
   transition: all 1s ease;
 }
@@ -39,7 +39,7 @@
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
-  border-bottom: 200px solid green;
+  border-bottom: 200px solid  #33cc66;
   transform: rotate(270deg);
   transition: all 1s ease;
 }
@@ -51,7 +51,7 @@
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
-  border-top: 200px solid yellow;
+  border-top: 200px solid #ffcc00;
   transform: rotate(180deg);
   transition: all 1s ease;
 }
@@ -63,7 +63,7 @@
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
-  border-bottom: 100px solid blue;
+  border-bottom: 100px solid #3399ff;
   transform: rotate(270deg);
   transition: all 1s ease;
 }
@@ -75,7 +75,7 @@
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
-  border-bottom: 100px solid orange;
+  border-bottom: 100px solid #ff9933;
   transform: rotate(90deg);
   transition: all 1s ease;
 }
@@ -87,7 +87,7 @@
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
-  border-top: 150px solid lightgreen;
+  border-top: 150px solid #99c339;
   transform: rotate(270deg);
   transition: all 1s ease;
 }

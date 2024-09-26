@@ -23,17 +23,50 @@ button {
   padding: 10px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
+
 h1 {
   text-align: center;
   padding: 20px;
   font-size: 100px;
+  font-family: 'Noto Serif SC', serif;
+  color: #D32F2F;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 0 #000, 6px 6px 0 #B71C1C;
+  border-bottom: 5px solid #FFD700;
+  margin-bottom: 20px;
+  background-image: linear-gradient(45deg, #FFD700, #FFEB3B);
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
 }
+
+h1::before, h1::after {
+  content: "";
+  position: absolute;
+  top: -48px;
+  bottom: -30px;
+  left: -50px;
+  right: -50px;
+  background-image: url('img/habillage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+h1::after {
+  top: auto;
+  bottom: -50px;
+}
+
 
 div.container {
   position: relative;
   width: 1200px;
   height: 800px;
-  background-color: beige;
   display: flex;
   justify-content: center;
   align-items: center;

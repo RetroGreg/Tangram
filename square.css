@@ -1,7 +1,7 @@
 .container.carre .squareRed {
   position: absolute;
   top: 275px;
-  left: 583px;
+  left: 477px;
   width: 100px;
   height: 100px;
   background-color: #ff6666;
@@ -12,7 +12,7 @@
 .container.carre .triangleGreen {
   position: absolute;
   bottom: 233px;
-  left: 604px;
+  left: 498px;
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -24,7 +24,7 @@
 .container.carre .triangleYellow {
   position: absolute;
   top: 225px;
-  right: 255px;
+  right: 361px;
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -36,7 +36,7 @@
 .container.carre .triangleBlue {
   position: absolute;
   top: 346px;
-  left: 512px;
+  left: 406px;
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -48,7 +48,7 @@
 .container.carre .triangleOrange {
   position: absolute;
   top: 203px;
-  left: 654px;
+  left: 548px;
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -60,7 +60,7 @@
 .container.carre .trapezePurple {
   position: absolute;
   top: 144px;
-  left: 705px;
+  left: 599px;
   width: 75px;
   height: 141px;
   background-color: #6666cc;
@@ -71,7 +71,7 @@
 .container.carre .triangleLime {
   position: absolute;
   top: 176px;
-  left: 560px;
+  left: 454px;
   bottom: 200px;
   width: 0;
   height: 0;
