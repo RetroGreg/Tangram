@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-image: url("img/bois.jpeg");
+  background-size:cover;
 }
 
 header {
@@ -83,6 +85,11 @@ div.container {
   position: relative;
   width: 1200px;
   height: 800px;
+
+  /* background-color:transparent; */
+  background-image: url("img/plateau.png");
+  background-size:cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
