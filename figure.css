@@ -80,7 +80,15 @@ h1::after {
   bottom: -50px;
 }
 
-
+body.darkmode {
+    background-color: #121212; 
+    color: #ffffff;
+  }
+  
+  body.darkmode h1 {
+    color: #ffcc00;
+    text-shadow: 4px 4px 0 #444, 6px 6px 0 #222;
+  }
 div.container {
   position: relative;
   width: 1200px;
