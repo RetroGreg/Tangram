@@ -1,14 +1,10 @@
-.container.chat {
-    background-color: purple;
-}
-
 .container.chat .squareRed {
     position: absolute;
     top: 107px;
     left: 521px;
     width: 100px;
     height: 100px;
-    background-color: #ff6666;
+    background-color:#cccccc;
     transform: rotate(45deg);
     transition: all 1s ease;
 }
@@ -20,7 +16,7 @@
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
-    border-bottom: 200px solid #33cc66;
+    border-bottom: 200px solid #cccccc;
     transform: rotate(90deg);
     transition: all 1s ease;
 }
@@ -32,7 +28,7 @@
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
-    border-top: 200px solid #ffcc00;
+    border-top: 200px solid #4d4d4d;
     transform: rotate(90deg);
     transition: all 1s ease;
 }
@@ -44,7 +40,7 @@
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
-    border-bottom: 100px solid #3399ff;
+    border-bottom: 100px solid #808080;
     transform: rotate(-45deg);
     transition: all 1s ease;
 }
@@ -56,7 +52,7 @@
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
-    border-bottom: 100px solid #ff9933;
+    border-bottom: 100px solid #808080;
     transform: rotate(135deg);
     transition: all 1s ease;
 }
@@ -67,7 +63,7 @@
     left: 797px;
     width: 87px;
     height: 109px;
-    background-color: #6666cc;
+    background-color:#ffffff;
     transform: skewX(-45deg) rotate(0deg);
     transition: all 1s ease;
 }
@@ -80,7 +76,7 @@
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
-    border-top: 150px solid #99c339;
+    border-top: 150px solid white;
     transform: rotate(135deg);
     transition: all 1s ease;
 }
