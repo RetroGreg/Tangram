@@ -1,110 +1,110 @@
 .container.chat .squareRed {
-    position: absolute;
-    top: 107px;
-    left: 521px;
-    width: 100px;
-    height: 100px;
-    background-color:#cccccc;
-    transform: rotate(45deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 107px;
+  left: 521px;
+  width: 100px;
+  height: 100px;
+  background-color: #cccccc;
+  transform: rotate(45deg);
+  transition: all 1s ease;
 }
 
 .container.chat .triangleGreen {
-    position: absolute;
-    bottom: 409px;
-    left: 533px;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-bottom: 200px solid #cccccc;
-    transform: rotate(90deg);
-    transition: all 1s ease;
+  position: absolute;
+  bottom: 409px;
+  left: 533px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-bottom: 200px solid #cccccc;
+  transform: rotate(90deg);
+  transition: all 1s ease;
 }
 
 .container.chat .triangleYellow {
-    position: absolute;
-    top: 392px;
-    right: 458px;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-top: 200px solid #4d4d4d;
-    transform: rotate(90deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 392px;
+  right: 458px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-top: 200px solid #4d4d4d;
+  transform: rotate(90deg);
+  transition: all 1s ease;
 }
 
 .container.chat .triangleBlue {
-    position: absolute;
-    top: 37px;
-    left: 449px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid #808080;
-    transform: rotate(-45deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 37px;
+  left: 449px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #808080;
+  transform: rotate(-45deg);
+  transition: all 1s ease;
 }
 
 .container.chat .triangleOrange {
-    position: absolute;
-    top: 37px;
-    left: 593px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid #808080;
-    transform: rotate(135deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 37px;
+  left: 593px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #808080;
+  transform: rotate(135deg);
+  transition: all 1s ease;
 }
 
 .container.chat .trapezePurple {
-    position: absolute;
-    top: 483px;
-    left: 797px;
-    width: 87px;
-    height: 109px;
-    background-color:#ffffff;
-    transform: skewX(-45deg) rotate(0deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 483px;
+  left: 797px;
+  width: 87px;
+  height: 109px;
+  background-color: #ffffff;
+  transform: skewX(-45deg) rotate(0deg);
+  transition: all 1s ease;
 }
 
 .container.chat .triangleLime {
-    position: absolute;
-    top: 317px;
-    left: 560px;
-    bottom: 200px;
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-top: 150px solid white;
-    transform: rotate(135deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 317px;
+  left: 560px;
+  bottom: 200px;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-top: 150px solid white;
+  transform: rotate(135deg);
+  transition: all 1s ease;
 }
 
 .container.chat.active .squareRed {
-    transform: rotate(180deg) scale(1.2);
+  transform: rotate(180deg) scale(1.2);
 }
 
 .container.chat.active .triangleGreen {
-    transform: rotate(270deg) scale(1.2);
+  transform: rotate(270deg) scale(1.2);
 }
 
 .container.chat.active .triangleYellow {
-    transform: rotate(180deg) scale(1.2);
+  transform: rotate(180deg) scale(1.2);
 }
 
 .container.chat.active .triangleBlue {
-    transform: rotate(-135deg) scale(1.2);
+  transform: rotate(-135deg) scale(1.2);
 }
 
 .container.chat.active .triangleOrange {
-    transform: rotate(225deg) scale(1.2);
+  transform: rotate(225deg) scale(1.2);
 }
 
 .container.chat.active .trapezePurple {
-    transform: skewX(-45deg) rotate(45deg);
+  transform: skewX(-45deg) rotate(45deg);
 }
 
 .container.chat.active .triangleLime {
-    transform: rotate(225deg) scale(1.2);
+  transform: rotate(225deg) scale(1.2);
 }

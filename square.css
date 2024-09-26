@@ -1,114 +1,110 @@
-.container.carre {
-    background-color: red;
-}
-
 .container.carre .squareRed {
-    position: absolute;
-    top: 275px;
-    left: 583px;
-    width: 100px;
-    height: 100px;
-    background-color: #ff6666;
-    transform: rotate(45deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 275px;
+  left: 583px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff6666;
+  transform: rotate(45deg);
+  transition: all 1s ease;
 }
 
 .container.carre .triangleGreen {
-    position: absolute;
-    bottom: 233px;
-    left: 604px;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-bottom: 200px solid #33cc66;
-    transform: rotate(225deg);
-    transition: all 1s ease;
+  position: absolute;
+  bottom: 233px;
+  left: 604px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-bottom: 200px solid #33cc66;
+  transform: rotate(225deg);
+  transition: all 1s ease;
 }
 
 .container.carre .triangleYellow {
-    position: absolute;
-    top: 225px;
-    right: 255px;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-top: 200px solid #ffcc00;
-    transform: rotate(225deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 225px;
+  right: 255px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-top: 200px solid #ffcc00;
+  transform: rotate(225deg);
+  transition: all 1s ease;
 }
 
 .container.carre .triangleBlue {
-    position: absolute;
-    top: 346px;
-    left: 512px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid #3399ff;
-    transform: rotate(-45deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 346px;
+  left: 512px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #3399ff;
+  transform: rotate(-45deg);
+  transition: all 1s ease;
 }
 
 .container.carre .triangleOrange {
-    position: absolute;
-    top: 203px;
-    left: 654px;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid #ff9933;
-    transform: rotate(45deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 203px;
+  left: 654px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #ff9933;
+  transform: rotate(45deg);
+  transition: all 1s ease;
 }
 
 .container.carre .trapezePurple {
-    position: absolute;
-    top: 144px;
-    left: 705px;
-    width: 75px;
-    height: 141px;
-    background-color: #6666cc;
-    transform: skewX(-45deg) rotate(90deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 144px;
+  left: 705px;
+  width: 75px;
+  height: 141px;
+  background-color: #6666cc;
+  transform: skewX(-45deg) rotate(90deg);
+  transition: all 1s ease;
 }
 
 .container.carre .triangleLime {
-    position: absolute;
-    top: 176px;
-    left: 560px;
-    bottom: 200px;
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-top: 150px solid #99c339;
-    transform: rotate(-90deg);
-    transition: all 1s ease;
+  position: absolute;
+  top: 176px;
+  left: 560px;
+  bottom: 200px;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-top: 150px solid #99c339;
+  transform: rotate(-90deg);
+  transition: all 1s ease;
 }
 
 .container.carre.active .squareRed {
-    transform: rotate(180deg) scale(1.2);
+  transform: rotate(180deg) scale(1.2);
 }
 
 .container.carre.active .triangleGreen {
-    transform: rotate(270deg) scale(1.2);
+  transform: rotate(270deg) scale(1.2);
 }
 
 .container.carre.active .triangleYellow {
-    transform: rotate(180deg) scale(1.2);
+  transform: rotate(180deg) scale(1.2);
 }
 
 .container.carre.active .triangleBlue {
-    transform: rotate(-135deg) scale(1.2);
+  transform: rotate(-135deg) scale(1.2);
 }
 
 .container.carre.active .triangleOrange {
-    transform: rotate(225deg) scale(1.2);
+  transform: rotate(225deg) scale(1.2);
 }
 
 .container.carre.active .trapezePurple {
-    transform: skewX(-45deg) rotate(45deg);
+  transform: skewX(-45deg) rotate(45deg);
 }
 
 .container.carre.active .triangleLime {
-    transform: rotate(225deg) scale(1.2);
+  transform: rotate(225deg) scale(1.2);
 }
