@@ -25,9 +25,7 @@ button {
     font-weight: bold;
     box-sizing: border-box;
     width: 70px;
-    height: 95px;
     line-height: 2em;
-    text-align: center;
     background: #ebedd7;
     border-radius: 10%;
     border: 1px solid #999;
@@ -39,9 +37,18 @@ button {
     color: #333;
     padding-left: 2px;
     text-shadow: -1px 0px 0px #000, 1px 1px 0px #fff;
+    display: flex;
+    justify-content: center;
+  
+
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
+  button:hover{
+
+    transform: translateX(3px);
+  }
+
+
 
 h1 {
   text-align: center;
