@@ -6,85 +6,79 @@
 }
 
 .container.tortue {
-
-    .triangleYellow {
-        transform: rotate(135deg);
-    }
-
-    .triangleBlue {
+    .trapezePurple {
         transform: rotate(90deg);
+        transform: scaleY(-1);
+        width: 140px;
+        height: 70px;
+        background-color: purple;
+        position: absolute;
+        top: 49.5%;
+        left: 27.4%;
+        transform: skew(-45deg);
     }
-
-    .triangleOrange {
-        transform: rotate(90deg);
-    }  
-
     .squareRed {
         position: absolute;
-        top: 150px;
-        left: 150px;
+        top: 24.5%;
+        left: 33.5%;
         width: 100px;
         height: 100px;
         background-color: red;
+        transform: rotate(0deg);
     }
 
     .triangleGreen {
         position: absolute;
-        bottom: 0;
-        left: 0;
+        bottom: 38%;
+        left:42%;
         width: 0;
         height: 0;
         border-left: 200px solid transparent;
         border-bottom: 200px solid green;
+        transform: rotate(270deg);
     }
 
     .triangleYellow {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 37%;
+        right: 41.5%;
         width: 0;
         height: 0;
         border-left: 200px solid transparent;
         border-top: 200px solid yellow;
+        transform: rotate(180deg);
     }
 
     .triangleBlue {
         position: absolute;
-        bottom: 0;
-        left: 200px;
+        bottom: 38%;
+        left: 58.5%;
         width: 0;
         height: 0;
         border-left: 100px solid transparent;
         border-bottom: 100px solid blue;
+        transform: rotate(270deg);
     }
 
     .triangleOrange {
         position: absolute;
-        top: 200px;
-        left: 200px;
+        top: 62%;
+        left: 50.5%;
         width: 0;
         height: 0;
         border-left: 100px solid transparent;
         border-bottom: 100px solid orange;
-    }
-
-    .trapezePurple {
-        position: absolute;
-        top: 150px;
-        right: 150px;
-        width: 100px;
-        height: 100px;
-        background-color: purple;
-        transform: skewX(-45deg);
+        transform: rotate(90deg);
     }
 
     .triangleLime {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 18.5%;
+        left: 58.5%;
         width: 0;
         height: 0;
-        border-left: 100px solid transparent;
-        border-top: 100px solid lightgreen;
+        border-left: 150px solid transparent;
+        border-top: 150px solid lightgreen;
+        transform: rotate(270deg);
     }
 }
