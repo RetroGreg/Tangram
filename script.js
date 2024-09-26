@@ -10,6 +10,10 @@ function clearClassesAndToggle(className) {
     container.classList.toggle(className);
 }
 
+const darkModeButton = document.querySelector('.darkmode');
+darkModeButton.addEventListener('click', () => {
+    document.body.classList.toggle('darkmode');
+});
 
 // Le carré
 const button = document.querySelector('.figure1');
