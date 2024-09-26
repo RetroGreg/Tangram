@@ -1,5 +1,114 @@
-.container.bateau{
-    
+.container.boat {
     background-color: rgb(0, 66, 128);
-    
+}
+
+.container.boat .squareRed {
+    position: absolute;
+    top: 263px;
+    left: 521px;
+    width: 100px;
+    height: 100px;
+    background-color: #ff6666;
+    transform: rotate(0deg);
+    transition: all 1s ease;
+}
+
+.container.boat .triangleGreen {
+    position: absolute;
+    bottom: 371px;
+    left: 754px;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid #33cc66;
+    transform: rotate(45deg);
+    transition: all 1s ease;
+}
+
+.container.boat .triangleYellow {
+    position: absolute;
+    top: 371px;
+    right: 388px;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-top: 200px solid #ffcc00;
+    transform: rotate(-45deg);
+    transition: all 1s ease;
+}
+
+.container.boat .triangleBlue {
+    position: absolute;
+    top: 212px;
+    left: 520px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #3399ff;
+    transform: rotate(-135deg);
+    transition: all 1s ease;
+}
+
+.container.boat .triangleOrange {
+    position: absolute;
+    top: 279px;
+    left: 804px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #ff9933;
+    transform: rotate(-135deg);
+    transition: all 1s ease;
+}
+
+.container.boat .trapezePurple {
+    position: absolute;
+    top: 362px;
+    left: 423px;
+    width: 75px;
+    height: 141px;
+    background-color: #6666cc;
+    transform: skewX(45deg) rotate(90deg);
+    transition: all 1s ease;
+}
+
+.container.boat .triangleLime {
+    position: absolute;
+    top: 289px;
+    left: 495px;
+    bottom: 200px;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-top: 150px solid #99c339;
+    transform: rotate(135deg);
+    transition: all 1s ease;
+}
+
+.container.boat.active .squareRed {
+    transform: rotate(180deg) scale(1.2);
+}
+
+.container.boat.active .triangleGreen {
+    transform: rotate(270deg) scale(1.2);
+}
+
+.container.boat.active .triangleYellow {
+    transform: rotate(180deg) scale(1.2);
+}
+
+.container.boat.active .triangleBlue {
+    transform: rotate(135deg) scale(1.2);
+}
+
+.container.boat.active .triangleOrange {
+    transform: rotate(225deg) scale(1.2);
+}
+
+.container.boat.active .trapezePurple {
+    transform: skewX(45deg) rotate(45deg);
+}
+
+.container.boat.active .triangleLime {
+    transform: rotate(225deg) scale(1.2);
 }
