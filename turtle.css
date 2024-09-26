@@ -6,116 +6,79 @@
 }
 
 .container.tortue {
-    position: relative;
-}
+    .trapezePurple {
+        transform: rotate(90deg);
+        transform: scaleY(-1);
+        width: 140px;
+        height: 70px;
+        background-color: purple;
+        position: absolute;
+        top: 49.5%;
+        left: 27.4%;
+        transform: skew(-45deg);
+    }
+    .squareRed {
+        position: absolute;
+        top: 24.5%;
+        left: 33.5%;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: rotate(0deg);
+    }
 
-.trapezePurple {
-    transform: rotate(90deg) scaleY(-1);
-    width: 140px;
-    height: 70px;
-    background-color: purple;
-    position: absolute;
-    top: 49.5%;
-    left: 27.4%;
-    transform: skew(-45deg);
-    transition: all 1s ease;
-}
+    .triangleGreen {
+        position: absolute;
+        bottom: 38%;
+        left:42%;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-bottom: 200px solid green;
+        transform: rotate(270deg);
+    }
 
-.squareRed {
-    position: absolute;
-    top: 24.5%;
-    left: 33.5%;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    transform: rotate(0deg);
-    transition: all 1s ease;
-}
+    .triangleYellow {
+        position: absolute;
+        top: 37%;
+        right: 41.5%;
+        width: 0;
+        height: 0;
+        border-left: 200px solid transparent;
+        border-top: 200px solid yellow;
+        transform: rotate(180deg);
+    }
 
-.triangleGreen {
-    position: absolute;
-    bottom: 38%;
-    left: 42%;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-bottom: 200px solid green;
-    transform: rotate(270deg);
-    transition: all 1s ease;
-}
+    .triangleBlue {
+        position: absolute;
+        bottom: 38%;
+        left: 58.5%;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid blue;
+        transform: rotate(270deg);
+    }
 
-.triangleYellow {
-    position: absolute;
-    top: 37%;
-    right: 41.5%;
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-top: 200px solid yellow;
-    transform: rotate(180deg);
-    transition: all 1s ease;
-}
+    .triangleOrange {
+        position: absolute;
+        top: 62%;
+        left: 50.5%;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-bottom: 100px solid orange;
+        transform: rotate(90deg);
+    }
 
-.triangleBlue {
-    position: absolute;
-    bottom: 38%;
-    left: 58.5%;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid blue;
-    transform: rotate(270deg);
-    transition: all 1s ease;
-}
-
-.triangleOrange {
-    position: absolute;
-    top: 62%;
-    left: 50.5%;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid orange;
-    transform: rotate(90deg);
-    transition: all 1s ease;
-}
-
-.triangleLime {
-    position: absolute;
-    top: 18.5%;
-    left: 58.5%;
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-top: 150px solid lightgreen;
-    transform: rotate(270deg);
-    transition: all 1s ease;
-}
-
-.container.tortue.active .squareRed {
-    transform: rotate(180deg) scale(1.2);
-}
-
-.container.tortue.active .triangleGreen {
-    transform: rotate(270deg) scale(1.2);
-}
-
-.container.tortue.active .triangleYellow {
-    transform: rotate(180deg) scale(1.2);
-}
-
-.container.tortue.active .triangleBlue {
-    transform: rotate(-135deg) scale(1.2);
-}
-
-.container.tortue.active .triangleOrange {
-    transform: rotate(225deg) scale(1.2);
-}
-
-.container.tortue.active .trapezePurple {
-    transform: skewX(-45deg) rotate(45deg);
-}
-
-.container.tortue.active .triangleLime {
-    transform: rotate(225deg) scale(1.2);
+    .triangleLime {
+        position: absolute;
+        top: 18.5%;
+        left: 58.5%;
+        width: 0;
+        height: 0;
+        border-left: 150px solid transparent;
+        border-top: 150px solid lightgreen;
+        transform: rotate(270deg);
+    }
 }
