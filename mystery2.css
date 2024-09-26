@@ -1,3 +1,5 @@
+
+
 .container.mystery2 {
     background-color: rgb(205, 173, 12);
 }
@@ -85,7 +87,6 @@
     transition: all 1s ease;
 }
 
-/* Ajouter des animations spéciales au clic */
 .container.mystery2.active .squareRed {
     transform: rotate(180deg) scale(1.2);
 }
