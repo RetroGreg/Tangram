@@ -34,11 +34,12 @@ h1{
 /* Styles de base pour le conteneur */
 div.container {
     position: relative;
-    width: 100vw;
+    width: 1200px;
     height: auto;
     min-height: 800px;
     background-color: beige;
 }
+
 main{
 
     display: flex;
