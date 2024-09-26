@@ -13,15 +13,31 @@ header {
 
 nav {
   padding: 5%;
-  flex-wrap: wrap;
   gap: 10px;
   display: flex;
   justify-content: center;
 }
 
 button {
-  padding: 10px;
-}
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 70px;
+    height: 95px;
+    line-height: 2em;
+    text-align: center;
+    background: #ebedd7;
+    border-radius: 10%;
+    border: 1px solid #999;
+    position: relative;
+    box-shadow: 0.1em 0.1em 0px 0px #999, 0.2em 0.2em 0px 0px #963;
+    cursor: pointer;
+    user-select: none;
+    pointer-events: auto;
+    color: #333;
+    padding-left: 2px;
+    text-shadow: -1px 0px 0px #000, 1px 1px 0px #fff;
+  }
 
 h1 {
   text-align: center;
