@@ -1,8 +1,7 @@
-
 .container.boat .squareRed {
   position: absolute;
   top: 263px;
-  left: 521px;
+  left: 429px; /* 521px - 92px */
   width: 100px;
   height: 100px;
   background-color: #ff6666;
@@ -13,7 +12,7 @@
 .container.boat .triangleGreen {
   position: absolute;
   bottom: 371px;
-  left: 754px;
+  left: 662px; /* 754px - 92px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -25,7 +24,7 @@
 .container.boat .triangleYellow {
   position: absolute;
   top: 371px;
-  right: 388px;
+  right: 480px; /* 388px + 92px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -37,7 +36,7 @@
 .container.boat .triangleBlue {
   position: absolute;
   top: 212px;
-  left: 520px;
+  left: 428px; /* 520px - 92px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -49,7 +48,7 @@
 .container.boat .triangleOrange {
   position: absolute;
   top: 279px;
-  left: 804px;
+  left: 712px; /* 804px - 92px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -61,7 +60,7 @@
 .container.boat .trapezePurple {
   position: absolute;
   top: 362px;
-  left: 423px;
+  left: 331px; /* 423px - 92px */
   width: 75px;
   height: 141px;
   background-color: #6666cc;
@@ -72,7 +71,7 @@
 .container.boat .triangleLime {
   position: absolute;
   top: 289px;
-  left: 495px;
+  left: 403px; /* 495px - 92px */
   bottom: 200px;
   width: 0;
   height: 0;

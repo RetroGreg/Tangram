@@ -1,7 +1,7 @@
 .container.carre .squareRed {
   position: absolute;
-  top: 275px;
-  left: 477px;
+  top: 355px; /* 275px + 80px */
+  left: 487px; /* 477px + 10px */
   width: 100px;
   height: 100px;
   background-color: #ff6666;
@@ -11,8 +11,8 @@
 
 .container.carre .triangleGreen {
   position: absolute;
-  bottom: 233px;
-  left: 498px;
+  bottom: 153px; /* 233px - 80px */
+  left: 508px; /* 498px + 10px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -23,8 +23,8 @@
 
 .container.carre .triangleYellow {
   position: absolute;
-  top: 225px;
-  right: 361px;
+  top: 305px; /* 225px + 80px */
+  right: 351px; /* 361px - 10px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -35,8 +35,8 @@
 
 .container.carre .triangleBlue {
   position: absolute;
-  top: 346px;
-  left: 406px;
+  top: 426px; /* 346px + 80px */
+  left: 416px; /* 406px + 10px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -47,8 +47,8 @@
 
 .container.carre .triangleOrange {
   position: absolute;
-  top: 203px;
-  left: 548px;
+  top: 283px; /* 203px + 80px */
+  left: 558px; /* 548px + 10px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -59,8 +59,8 @@
 
 .container.carre .trapezePurple {
   position: absolute;
-  top: 144px;
-  left: 599px;
+  top: 224px; /* 144px + 80px */
+  left: 609px; /* 599px + 10px */
   width: 75px;
   height: 141px;
   background-color: #6666cc;
@@ -70,9 +70,9 @@
 
 .container.carre .triangleLime {
   position: absolute;
-  top: 176px;
-  left: 454px;
-  bottom: 200px;
+  top: 256px; /* 176px + 80px */
+  left: 464px; /* 454px + 10px */
+  bottom: 120px; /* 200px - 80px */
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
@@ -98,13 +98,4 @@
 }
 
 .container.carre.active .triangleOrange {
-  transform: rotate(225deg) scale(1.2);
-}
-
-.container.carre.active .trapezePurple {
-  transform: skewX(-45deg) rotate(45deg);
-}
-
-.container.carre.active .triangleLime {
-  transform: rotate(225deg) scale(1.2);
-}
+  transform: rotate(225deg) scale(1

@@ -6,7 +6,7 @@
     transform: rotate(15deg);
     position: absolute;
     top: 36.2%;
-    left: 33.3%;
+    left: 36.3%; /* 35.3% + 1% */
     width: 100px;
     height: 100px;
     background-color: #ff6666;
@@ -17,7 +17,7 @@
     transform: rotate(284deg);
     position: absolute;
     top: 48%;
-    left: 31.2%;
+    left: 34.2%; /* 33.2% + 1% */
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
@@ -28,7 +28,7 @@
 .container.mystere1 .trapezePurple {
     position: absolute;
     top: 53%;
-    right: 64.5%;
+    right: 61.5%; /* 62.5% - 1% */
     width: 2.9%;
     height: 14%;
     background-color: #6666cc;
@@ -40,11 +40,11 @@
     transform: rotate(105deg);
     position: absolute;
     bottom: 34.7%;
-    left: 40%;
+    left: 43%; /* 42% + 1% */
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
-    border-bottom: 200px solid  #33cc66;
+    border-bottom: 200px solid #33cc66;
     transition: all 1s ease;
 }
 
@@ -52,7 +52,7 @@
     transform: rotate(150deg);
     position: absolute;
     top: 38%;
-    right: 34.7%;
+    right: 31.7%; /* 32.7% - 1% */
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
@@ -64,7 +64,7 @@
     transform: rotate(374deg);
     position: absolute;
     bottom: 45.9%;
-    left: 61%;
+    left: 64%; /* 63% + 1% */
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
@@ -76,7 +76,7 @@
     transform: rotate(240deg);
     position: absolute;
     bottom: 55.9%;
-    left: 28%;
+    left: 31%; /* 30% + 1% */
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
