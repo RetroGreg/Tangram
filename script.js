@@ -6,13 +6,25 @@ window.addEventListener('DOMContentLoaded', () => {
 const container = document.querySelector('.container');
 
 function clearClassesAndToggle(className) {
-    container.classList.remove('carre', 'chat', 'oie', 'canard', 'coeur', 'tortue', 'boat', 'mystere1', 'mystery2', 'mystere3');
+    container.classList.remove('carre', 'chat', 'oie', 'canard', 'coeur', 'tortue', 'boat', 'mystere1', 'mystery2', 'mystere3', 'rabbit', 'goat');
     container.classList.toggle(className);
+}
+
+function randomFigure(figures) {
+    const randomIndex = Math.floor(Math.random() * figures.length);
+    return figures[randomIndex];
 }
 
 const darkModeButton = document.querySelector('.darkmode');
 darkModeButton.addEventListener('click', () => {
-    document.body.classList.toggle('darkmode');    
+
+    document.body.classList.toggle('darkmode');
+    document.querySelector('.container').classList.toggle('darkmode');
+    document.querySelector('html').classList.toggle('darkmode');
+    document.querySelector('.h1').classList.toggle('darkmode');
+   document.body.classList.toggle('darkmode');
+
+
 });
 
 // Le carré
@@ -63,10 +75,12 @@ button8.addEventListener('click', () => {
     clearClassesAndToggle('mystere1');
 });
 
-// Le mystère 2
+// Le mystère 2 (aléatoire entre mystery2, rabbit, goat)
 const button9 = document.querySelector('.figure9');
 button9.addEventListener('click', () => {
-    clearClassesAndToggle('mystery2');
+    const figures = ['mystery2', 'rabbit', 'goat'];
+    const randomClass = randomFigure(figures);
+    clearClassesAndToggle(randomClass);
 });
 
 // Le mystère 3
