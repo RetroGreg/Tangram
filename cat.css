@@ -1,6 +1,6 @@
 .container.chat .squareRed {
   position: absolute;
-  top: 107px;
+  top: 170px; /* 107px + 63px */
   left: 521px;
   width: 100px;
   height: 100px;
@@ -11,7 +11,7 @@
 
 .container.chat .triangleGreen {
   position: absolute;
-  bottom: 409px;
+  bottom: 346px; /* 409px - 63px */
   left: 533px;
   width: 0;
   height: 0;
@@ -23,7 +23,7 @@
 
 .container.chat .triangleYellow {
   position: absolute;
-  top: 392px;
+  top: 455px; /* 392px + 63px */
   right: 458px;
   width: 0;
   height: 0;
@@ -35,7 +35,7 @@
 
 .container.chat .triangleBlue {
   position: absolute;
-  top: 37px;
+  top: 100px; /* 37px + 63px */
   left: 449px;
   width: 0;
   height: 0;
@@ -47,7 +47,7 @@
 
 .container.chat .triangleOrange {
   position: absolute;
-  top: 37px;
+  top: 100px; /* 37px + 63px */
   left: 593px;
   width: 0;
   height: 0;
@@ -59,7 +59,7 @@
 
 .container.chat .trapezePurple {
   position: absolute;
-  top: 483px;
+  top: 546px; /* 483px + 63px */
   left: 797px;
   width: 87px;
   height: 109px;
@@ -70,9 +70,9 @@
 
 .container.chat .triangleLime {
   position: absolute;
-  top: 317px;
+  top: 380px; /* 317px + 63px */
   left: 560px;
-  bottom: 200px;
+  bottom: 137px; /* 200px - 63px */
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
@@ -81,6 +81,7 @@
   transition: all 1s ease;
 }
 
+/* Animations lors de l'activation */
 .container.chat.active .squareRed {
   transform: rotate(180deg) scale(1.2);
 }

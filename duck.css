@@ -5,8 +5,8 @@
 .container.canard .squareRed {
   transform: rotate(45deg);
   position: absolute;
-  top: 41.2%;
-  left: 63.3%;
+  top: 31.2%; /* 41.2% - 10% */
+  left: 58.3%; /* 63.3% - 5% */
   width: 100px;
   height: 100px;
   background-color: #ff6666;
@@ -15,20 +15,20 @@
 
 .container.canard .triangleGreen {
   position: absolute;
-  bottom: 17.7%;
-  left: 45%;
+  bottom: 27.7%; /* 17.7% + 10% */
+  left: 40%; /* 45% - 5% */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
-  border-bottom: 200px solid  #33cc66;
+  border-bottom: 200px solid #33cc66;
   transition: all 1s ease;
 }
 
 .container.canard .triangleYellow {
   transform: rotate(135deg);
   position: absolute;
-  top: 45%;
-  right: 42%;
+  top: 35%; /* 45% - 10% */
+  right: 47%; /* 42% + 5% */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -39,8 +39,8 @@
 .container.canard .triangleBlue {
   transform: rotate(225deg);
   position: absolute;
-  bottom: 2.6%;
-  left: 50%;
+  bottom: 12.6%; /* 2.6% + 10% */
+  left: 45%; /* 50% - 5% */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -51,8 +51,8 @@
 .container.canard .triangleOrange {
   transform: rotate(225deg);
   position: absolute;
-  top: 50%;
-  left: 69.2%;
+  top: 40%; /* 50% - 10% */
+  left: 64.2%; /* 69.2% - 5% */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -62,8 +62,8 @@
 
 .container.canard .trapezePurple {
   position: absolute;
-  top: 53.9%;
-  right: 29.5%;
+  top: 43.9%; /* 53.9% - 10% */
+  right: 34.5%; /* 29.5% + 5% */
   width: 8.9%;
   height: 9%;
   background-color: #6666cc;
@@ -73,8 +73,8 @@
 
 .container.canard .triangleLime {
   position: absolute;
-  top: 60%;
-  left: 55.4%;
+  top: 50%; /* 60% - 10% */
+  left: 50.4%; /* 55.4% - 5% */
   width: 0;
   height: 0;
   border-left: 150px solid transparent;
@@ -83,6 +83,7 @@
   transition: all 1s ease;
 }
 
+/* Animations lors de l'activation */
 .container.canard.active .squareRed {
   transform: rotate(180deg) scale(1.2);
 }
