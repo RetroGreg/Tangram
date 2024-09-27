@@ -98,4 +98,5 @@
 }
 
 .container.carre.active .triangleOrange {
-  transform: rotate(225deg) scale(1
+  transform: rotate(225deg) scale(1.2)
+}
