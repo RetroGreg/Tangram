@@ -58,13 +58,21 @@ button {
   }
 
   button.darkmode {
-    background-image:url("img/lantern.svg");
-    position: absolute;
-    top:50px;
-    left: 50px;
-    margin: 100px; 
-    transition: background-image 0.5s ease; /* Transition sur l'image de fond */   
+
+    background-color:transparent;      
+    font-size: 0;
+    border:none;  
+    background-image:url("img/chinese-lantern.png");
+    background-size:2em;
+    background-size:cover;
+    background-position:center;      
+    width:80px;    
+    height:100px;
+    transition: background-image 0.3s ease;
 }
+body.darkmode button.darkmode{
+  background-image:url("img/chinese-lantern-darkmod.png");
+
 
 
 button:hover{
