@@ -12,7 +12,7 @@ function clearClassesAndToggle(className) {
 
 const darkModeButton = document.querySelector('.darkmode');
 darkModeButton.addEventListener('click', () => {
-    document.body.classList.toggle('darkmode');
+    document.body.classList.toggle('darkmode');    
 });
 
 // Le carré
