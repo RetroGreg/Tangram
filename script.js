@@ -35,9 +35,10 @@ function randomFigure(figures) {
     return figures[randomIndex];
 }
 
-const h1 = document.querySelector('h1');
+const darkModeButton = document.querySelector('.darkmode');
+
 const nav = document.createElement('nav');
-h1.insertAdjacentElement('afterend', nav);
+darkModeButton.insertAdjacentElement('afterend', nav);
 
 const buttons = [
     { class: 'figure1', text: 'Carré', css: 'square.css', toggleClass: 'carre' },
@@ -69,11 +70,9 @@ buttons.forEach(buttonData => {
     });
 });
 
-const darkModeButton = document.querySelector('.darkmode');
-
 darkModeButton.addEventListener('click', () => {
     document.body.classList.toggle('darkmode');
-    document.querySelector('.container').classList.toggle('darkmode');
+    container.classList.toggle('darkmode');
     document.querySelector('html').classList.toggle('darkmode');
     document.querySelector('h1').classList.toggle('darkmode');
 });
