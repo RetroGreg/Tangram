@@ -15,16 +15,16 @@
     height: 70px;
     background-color: #6666cc;
     position: absolute;
-    top: 50.5%;
-    left: 57%;
+    top: 53.5%; /* 50.5% + 3% */
+    left: 61%; /* 57% + 4% */
     transform: skew(-180deg, 45deg);
     transition: all 1s ease;
 }
 
 .container.mystere3 .squareRed {
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 18%; /* 15% + 3% */
+    left: 54%; /* 50% + 4% */
     width: 100px;
     height: 100px;
     background-color: #ff6666;
@@ -34,20 +34,20 @@
 
 .container.mystere3 .triangleGreen {
     position: absolute;
-    bottom: 30.2%;
-    left: 40.3%;
+    bottom: 27.2%; /* 30.2% - 3% */
+    left: 44.3%; /* 40.3% + 4% */
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
-    border-bottom: 200px solid  #33cc66;
+    border-bottom: 200px solid #33cc66;
     transform: rotate(270deg);
     transition: all 1s ease;
 }
 
 .container.mystere3 .triangleYellow {
     position: absolute;
-    top: 33%;
-    right: 51%;
+    top: 36%; /* 33% + 3% */
+    right: 47%; /* 51% - 4% */
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
@@ -58,8 +58,8 @@
 
 .container.mystere3 .triangleBlue {
     position: absolute;
-    bottom: 54%;
-    left: 24%;
+    bottom: 51%; /* 54% - 3% */
+    left: 28%; /* 24% + 4% */
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
@@ -70,8 +70,8 @@
 
 .container.mystere3 .triangleOrange {
     position: absolute;
-    top: 58%;
-    left: 32.5%;
+    top: 61%; /* 58% + 3% */
+    left: 36.5%; /* 32.5% + 4% */
     width: 0;
     height: 0;
     border-left: 100px solid transparent;
@@ -82,8 +82,8 @@
 
 .container.mystere3 .triangleLime {
     position: absolute;
-    top: 26%;
-    left: 44.5%;
+    top: 29%; /* 26% + 3% */
+    left: 48.5%; /* 44.5% + 4% */
     width: 0;
     height: 0;
     border-left: 150px solid transparent;

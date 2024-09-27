@@ -1,8 +1,7 @@
-
 .container.mystery2 .squareRed {
   position: absolute;
   top: 413px;
-  left: 357px;
+  left: 414px; /* 357px + 54px */
   width: 100px;
   height: 100px;
   background-color: #ff6666;
@@ -13,7 +12,7 @@
 .container.mystery2 .triangleGreen {
   position: absolute;
   bottom: 386px;
-  left: 499px;
+  left: 553px; /* 499px + 54px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -25,7 +24,7 @@
 .container.mystery2 .triangleYellow {
   position: absolute;
   top: 315px;   
-  right: 541px;
+  right: 486px; /* 541px - 54px */
   width: 0;
   height: 0;
   border-left: 200px solid transparent;
@@ -37,7 +36,7 @@
 .container.mystery2 .triangleBlue {
   position: absolute;
   top: 415px;
-  left: 643px;
+  left: 697px; /* 643px + 54px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -49,7 +48,7 @@
 .container.mystery2 .triangleOrange {
   position: absolute;
   top: 416px;
-  left: 460px;
+  left: 514px; /* 460px + 54px */
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -61,7 +60,7 @@
 .container.mystery2 .trapezePurple {
   position: absolute;
   top: 315px;
-  left: 611px;
+  left: 665px; /* 611px + 54px */
   width: 81px;
   height: 101px;
   background-color: #6666cc;
@@ -72,7 +71,7 @@
 .container.mystery2 .triangleLime {
   position: absolute;
   top: 344px;
-  left: 671px;
+  left: 725px; /* 671px + 54px */
   bottom: 200px;
   width: 0;
   height: 0;
