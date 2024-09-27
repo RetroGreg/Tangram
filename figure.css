@@ -9,6 +9,18 @@ body {
   justify-content: center;
   background-image: url("img/two-green-leaves-four-white-stones-bamboo-mat.jpg");  
   background-size:cover;
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+}
+
+
+body.darkmode{
+  background-image: url("img/bamboo_night2.jpg");  
+  background-size:cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+
 }
 
 header {
@@ -42,6 +54,7 @@ button {
     color: #333;
     padding-left: 2px;
     text-shadow: -1px 0px 0px #000, 1px 1px 0px #fff;    
+    transition: background-image 0.5s ease; /* Transition sur l'image de fond */
   }
 
   button.darkmode {
@@ -49,7 +62,8 @@ button {
     position: absolute;
     top:50px;
     left: 50px;
-    margin: 100px;    
+    margin: 100px; 
+    transition: background-image 0.5s ease; /* Transition sur l'image de fond */   
 }
 
 
@@ -91,6 +105,13 @@ h1::before, h1::after {
   border-radius: 15px;
 }
 
+.darkmode h1::before, 
+.darkmode h1::after {
+    background-image: url('img/habillage_night.png');
+    transition: background-image 0.5s ease; /* Transition sur l'image de fond */   
+}
+
+
 h1::after {
   top: auto;
   bottom: -50px;
@@ -99,12 +120,15 @@ h1::after {
 body.darkmode {
     background-color: #121212; 
     color: #ffffff;
+    transition: background-image 0.5s ease; /* Transition sur l'image de fond */
   }
   
   body.darkmode h1 {
     color: #ffcc00;
     text-shadow: 4px 4px 0 #444, 6px 6px 0 #222;
+    transition: background-image 0.5s ease; /* Transition sur l'image de fond */
   }
+
 div.container {
   position: relative;
   width: 1200px;
@@ -116,9 +140,22 @@ div.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
 }
 
 main {
   display: flex;
   justify-content: center;
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+}
+
+
+div.container.darkmode {
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  background-image: url("img/plateau_night.png");
+}
+
+html.darkmode{
+  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  box-shadow: inset 1px 1px 20px 9px rgb(0 0 0);
 }

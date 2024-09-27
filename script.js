@@ -18,6 +18,10 @@ function randomFigure(figures) {
 const darkModeButton = document.querySelector('.darkmode');
 darkModeButton.addEventListener('click', () => {
     document.body.classList.toggle('darkmode');
+    document.querySelector('.container').classList.toggle('darkmode');
+    document.querySelector('html').classList.toggle('darkmode');
+    document.querySelector('.h1').classList.toggle('darkmode');
+
 });
 
 // Le carré
