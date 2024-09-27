@@ -120,7 +120,7 @@ h1::before, h1::after {
 .darkmode h1::before, 
 .darkmode h1::after {
     background-image: url('img/habillage_night.png');
-    transition: background-image 0.5s ease; /* Transition sur l'image de fond */   
+    transition: background-image 0.5s ease;
 }
 
 
@@ -132,13 +132,13 @@ h1::after {
 body.darkmode {
     background-color: #121212; 
     color: #ffffff;
-    transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+    transition: background-image 0.5s ease;
   }
   
   body.darkmode h1 {
     color: #ffcc00;
     text-shadow: 4px 4px 0 #444, 6px 6px 0 #222;
-    transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+    transition: background-image 0.5s ease;
   }
 
 div.container {
@@ -148,26 +148,29 @@ div.container {
   background-image: url("img/plateau.png");
   background-size:cover;
   background-position: 0px -162px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  transition: background-image 0.5s ease;
+}
+
+button.hint {
+    bottom : 20px
 }
 
 main {
   display: flex;
   justify-content: center;
-  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  transition: background-image 0.5s ease;
 }
 
 
 div.container.darkmode {
-  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  transition: background-image 0.5s ease;
   background-image: url("img/plateau_night.png");
 }
 
 html.darkmode{
-  transition: background-image 0.5s ease; /* Transition sur l'image de fond */
+  transition: background-image 0.5s ease;
   box-shadow: inset 1px 1px 20px 9px rgb(0 0 0);
 }

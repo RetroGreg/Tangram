@@ -102,12 +102,19 @@ const sounds = {
     mystere3: 'sons/cavalier.mp3'
 };
 
+let currentAudio = null;
+
 function playHintSound() {
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+    }
+
     const activeClass = Object.keys(sounds).find(className => container.classList.contains(className));
     
     if (activeClass) {
-        const audio = new Audio(sounds[activeClass]);
-        audio.play();
+        currentAudio = new Audio(sounds[activeClass]);
+        currentAudio.play();
     } else {
         console.log("Aucune figure active");
     }
