@@ -1,9 +1,29 @@
 window.addEventListener('DOMContentLoaded', () => {
+    const head = document.querySelector('head');
+    
+    const figureCSS = document.createElement('link');
+    figureCSS.rel = 'stylesheet';
+    figureCSS.href = 'figure.css';
+    head.appendChild(figureCSS);
+
+    loadCSS('square.css');
     const container = document.querySelector('.container');
     container.classList.add('carre');
 });
 
 const container = document.querySelector('.container');
+
+function loadCSS(fileName) {
+    const head = document.querySelector('head');
+    let link = document.querySelector(`link[href="${fileName}"]`);
+
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = fileName;
+        head.appendChild(link);
+    }
+}
 
 function clearClassesAndToggle(className) {
     container.classList.remove('carre', 'chat', 'oie', 'canard', 'coeur', 'tortue', 'boat', 'mystere1', 'mystery2', 'mystere3', 'rabbit', 'goat');
@@ -15,76 +35,49 @@ function randomFigure(figures) {
     return figures[randomIndex];
 }
 
-const darkModeButton = document.querySelector('.darkmode');
-darkModeButton.addEventListener('click', () => {
+const h1 = document.querySelector('h1');
+const nav = document.createElement('nav');
+h1.insertAdjacentElement('afterend', nav);
 
+const buttons = [
+    { class: 'figure1', text: 'Carré', css: 'square.css', toggleClass: 'carre' },
+    { class: 'figure2', text: 'Chat', css: 'cat.css', toggleClass: 'chat' },
+    { class: 'figure3', text: 'Oie', css: 'swan.css', toggleClass: 'oie' },
+    { class: 'figure4', text: 'Canard', css: 'duck.css', toggleClass: 'canard' },
+    { class: 'figure5', text: 'Coeur', css: 'heart.css', toggleClass: 'coeur' },
+    { class: 'figure6', text: 'Tortue', css: 'turtle.css', toggleClass: 'tortue' },
+    { class: 'figure7', text: 'Bateau', css: 'boat.css', toggleClass: 'boat' },
+    { class: 'figure8', text: 'Mystère 1', css: 'mystery1.css', toggleClass: 'mystere1' },
+    { class: 'figure9', text: 'Mystère 2', css: 'mystery2.css', toggleClass: ['mystery2', 'rabbit', 'goat'], random: true },
+    { class: 'figure10', text: 'Mystère 3', css: 'mystery3.css', toggleClass: 'mystere3' }
+];
+
+buttons.forEach(buttonData => {
+    const button = document.createElement('button');
+    button.classList.add(buttonData.class);
+    button.innerText = buttonData.text;
+    nav.appendChild(button);
+
+    button.addEventListener('click', () => {
+        loadCSS(buttonData.css);
+        if (buttonData.random) {
+            const randomClass = randomFigure(buttonData.toggleClass);
+            clearClassesAndToggle(randomClass);
+        } else {
+            clearClassesAndToggle(buttonData.toggleClass);
+        }
+    });
+});
+
+const darkModeButton = document.querySelector('.darkmode');
+
+darkModeButton.addEventListener('click', () => {
     document.body.classList.toggle('darkmode');
     document.querySelector('.container').classList.toggle('darkmode');
     document.querySelector('html').classList.toggle('darkmode');
-    document.querySelector('.h1').classList.toggle('darkmode');
-   document.body.classList.toggle('darkmode');
-
-
+    document.querySelector('h1').classList.toggle('darkmode');
 });
 
-// Le carré
-const button = document.querySelector('.figure1');
-button.addEventListener('click', () => {
-    clearClassesAndToggle('carre');
-});
-
-// Le chat miaou
-const button2 = document.querySelector('.figure2');
-button2.addEventListener('click', () => {
-    clearClassesAndToggle('chat');
-});
-
-// L'oie
-const button3 = document.querySelector('.figure3');
-button3.addEventListener('click', () => {
-    clearClassesAndToggle('oie');
-});
-
-// Le canard (L'oie verte)
-const button4 = document.querySelector('.figure4');
-button4.addEventListener('click', () => {
-    clearClassesAndToggle('canard');
-});
-
-// Le coeur
-const button5 = document.querySelector('.figure5');
-button5.addEventListener('click', () => {
-    clearClassesAndToggle('coeur');
-});
-
-// La tortue
-const button6 = document.querySelector('.figure6');
-button6.addEventListener('click', () => {
-    clearClassesAndToggle('tortue');
-});
-
-// Le bateau
-const button7 = document.querySelector('.figure7');
-button7.addEventListener('click', () => {
-    clearClassesAndToggle('boat');
-});
-
-// Le mystère 1
-const button8 = document.querySelector('.figure8');
-button8.addEventListener('click', () => {
-    clearClassesAndToggle('mystere1');
-});
-
-// Le mystère 2 (aléatoire entre mystery2, rabbit, goat)
-const button9 = document.querySelector('.figure9');
-button9.addEventListener('click', () => {
-    const figures = ['mystery2', 'rabbit', 'goat'];
-    const randomClass = randomFigure(figures);
-    clearClassesAndToggle(randomClass);
-});
-
-// Le mystère 3
-const button10 = document.querySelector('.figure10');
-button10.addEventListener('click', () => {
-    clearClassesAndToggle('mystere3');
-});
+const svgScript = document.createElement('script');
+svgScript.src = 'svgInjector.js';
+document.body.appendChild(svgScript);
