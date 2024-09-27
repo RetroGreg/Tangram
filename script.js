@@ -80,3 +80,37 @@ darkModeButton.addEventListener('click', () => {
 const svgScript = document.createElement('script');
 svgScript.src = 'svgInjector.js';
 document.body.appendChild(svgScript);
+
+const hintButton = document.createElement('button');
+hintButton.classList.add('hint');
+hintButton.innerText = 'Indice';
+
+nav.insertAdjacentElement('afterend', hintButton);
+
+const sounds = {
+    carre: 'sons/carré.mp3',
+    chat: 'sons/miaou.mp3',
+    oie: 'sons/cygne.mp3',
+    canard: 'sons/canard.mp3',
+    coeur: 'sons/coeur.mp3',
+    tortue: 'sons/tortue.mp3',
+    boat: 'sons/bateau.wav',
+    mystere1: 'sons/otarie.mp3',
+    mystery2: 'sons/porte.wav',
+    rabbit: 'sons/lapin.mp3',
+    goat: 'sons/Chevre.mp3',
+    mystere3: 'sons/cavalier.mp3'
+};
+
+function playHintSound() {
+    const activeClass = Object.keys(sounds).find(className => container.classList.contains(className));
+    
+    if (activeClass) {
+        const audio = new Audio(sounds[activeClass]);
+        audio.play();
+    } else {
+        console.log("Aucune figure active");
+    }
+}
+
+hintButton.addEventListener('click', playHintSound);
